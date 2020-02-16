@@ -1,6 +1,64 @@
+  
 body {
   background-color: black;
+  overflow-x: hidden;
 }
 #code {
-  background-color: #4bd927;
+  color: #4bd927;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  font-family: 'Source Code Pro';
+  font-weight: bold;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+#binSpam {
+  color: #4bd927;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  font-family: 'Source Code Pro';
+  font-weight: bold;
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+}
+#passDecry {
+  color: #4bd927;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  font-family: 'Source Code Pro';
+  font-weight: bold;
+}
+table {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+tr {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+}
+#top {
+  top: 0;
+}
+#bottom {
+  bottom: 0;
+}
+td {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
 }
