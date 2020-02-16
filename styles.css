@@ -3,39 +3,21 @@ body {
   background-color: black;
   overflow-x: hidden;
 }
-#code {
-  color: #4bd927;
-  width: 100%;
-  height: 100%;
-  border: 1px solid white;
-  font-family: 'Source Code Pro';
-  font-weight: bold;
-}
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent;
 }
 #binSpam {
-  color: #4bd927;
-  width: 100%;
-  height: 100%;
-  border: 1px solid white;
-  font-family: 'Source Code Pro';
-  font-weight: bold;
   overflow-wrap: break-word;
   overflow-y: scroll;
 }
-#passDecry {
-  color: #4bd927;
+.full {
   width: 100%;
   height: 100%;
-  border: 1px solid white;
-  font-family: 'Source Code Pro';
-  font-weight: bold;
 }
 table {
-  width: 100%;
-  height: 100%;
+  width: 98%;
+  height: 98%;
   position: absolute;
   top: 0;
   left: 0;
@@ -45,10 +27,10 @@ tr {
   height: 50%;
   position: absolute;
 }
-#top {
+.top {
   top: 0;
 }
-#bottom {
+.bottom {
   bottom: 0;
 }
 td {
@@ -61,4 +43,71 @@ td {
 }
 .right {
   right: 0;
+}
+.fakehack {
+  color: #4bd927;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: 'Source Code Pro';
+  font-weight: bold;
+}
+#passDecry {
+  text-align: center;
+  font-size: 18px;
+}
+#passProg {
+  width: 70%;
+  height: 30%;
+  border: 1px solid white;
+  margin: auto;
+  position: relative;
+  overflow-x: hidden;
+}
+#innerPassProg {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  background-color: #4bd927;
+}
+#firewall {
+  color: #ff8800;
+  text-align: center;
+  font-size: 18px;
+}
+#firewallProg {
+  width: 70%;
+  height: 30%;
+  border: 1px solid white;
+  margin: auto;
+  position: relative;
+  overflow-x: hidden;
+}
+#innerFirewall {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  background-color: #ff8800;
+}
+#code {
+  overflow: scroll;
+  height: 90%;
+}
+#code.caret::after {
+  content: '|'
+}
+.randomLines {
+  height: 100%;
+  width: 6%;
+  text-align: center;
+  color: #4bd927;
+  display: inline-block;
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+  font-weight: bold;
+  font-family: 'Source Code Pro';
+}
+#randomSpam {
+  height: 100%;
+  width: 100%;
 }
